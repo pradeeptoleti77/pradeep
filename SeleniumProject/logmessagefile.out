@@ -1,0 +1,28 @@
+Initializing properties files
+Opened the browser:chrome
+navigating to url:https://www.amazon.in
+Initializing properties files
+Initializing properties files
+Opened the browser:chrome
+navigating to url:https://www.amazon.in
+Selected the option:Books by using locator:searchDropdownBox
+Entered the input:harryby using locator:field-keywords
+Initializing properties files
+Opened the browser:chrome
+navigating to url:https://www.amazon.in
+Selected the option:Books by using locator:searchDropdownBox
+Entered the text:harryby using locator:field-keywords
+clicked on search option by uding locator:nav-input
+Initializing properties files
+Opened the browser:chrome
+navigating to url:https://www.amazon.in
+Selected the option:Books by using locator:searchDropdownBox
+Entered the text:harryby using locator:field-keywords
+clicked on search option by uding locator:nav-input
+\..........Initializing properties files............//
+\..........Initializing properties files............//
+Opened the browser:chrome
+navigating to url:https://www.amazon.in
+Selected the option:Books by using locator:searchDropdownBox
+Entered the text:harryby using locator:field-keywords
+clicked on search option by using locator:nav-input
