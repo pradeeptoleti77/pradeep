@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44696" started-at="2020-05-11T08:10:17Z" finished-at="2020-05-11T08:11:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44696" started-at="2020-05-11T08:10:17Z" finished-at="2020-05-11T08:11:02Z">
+      <class name="Spicejet.Jet">
+        <test-method status="PASS" signature="startProcess()[pri:0, instance:Spicejet.Jet@2aa5fe93]" name="startProcess" is-config="true" duration-ms="33675" started-at="2020-05-11T08:10:17Z" finished-at="2020-05-11T08:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startProcess -->
+        <test-method status="PASS" signature="spiceJet()[pri:0, instance:Spicejet.Jet@2aa5fe93]" name="spiceJet" duration-ms="10932" started-at="2020-05-11T08:10:51Z" finished-at="2020-05-11T08:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spiceJet -->
+        <test-method status="PASS" signature="endProcess()[pri:0, instance:Spicejet.Jet@2aa5fe93]" name="endProcess" is-config="true" duration-ms="0" started-at="2020-05-11T08:11:02Z" finished-at="2020-05-11T08:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endProcess -->
+      </class> <!-- Spicejet.Jet -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

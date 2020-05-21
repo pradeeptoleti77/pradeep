@@ -6,6 +6,8 @@ import com.relevantcodes.extentreports.LogStatus;
 
 public class TC_004 extends BaseTest
 {
+	        //Extent Reports
+	
 	private static final Logger log=Logger.getLogger(TC_004.class);
 
 	public static void main(String[] args) throws Exception 
@@ -28,7 +30,7 @@ public class TC_004 extends BaseTest
 		
 		selectOption("amazondropdown_id","amazondropdowninput");
 		//log.info("Selected the option:" +subprop.getProperty("amazondropdowninput") + "by using locator:"+subprop.getProperty("amazondropdown_id"));
-		test.log(LogStatus.PASS, "navigating to url:" +subprop.getProperty("amazonurl"));
+		test.log(LogStatus.PASS, "Selected the dropdown option:" +subprop.getProperty("amazondropdowninput") +"By using locator:" +subprop.getProperty("amazondropdown_id"));
 		
 		enterSearchText("amazontextfield_name","amazonsearchtext");
 		//log.info("Entered the text:" +subprop.getProperty("amazonsearchtext") + "by using locator:" +subprop.getProperty("amazontextfield_name"));
@@ -40,6 +42,9 @@ public class TC_004 extends BaseTest
 		
 		report.endTest(test);
 		report.flush();
+		
+		
+		
 		//driver.findElement(By.id("searchDropdownBox")).sendKeys("Books");
 		//driver.findElement(By.name("field-keywords")).sendKeys("harry");
 		//driver.findElement(By.className("nav-input")).click();

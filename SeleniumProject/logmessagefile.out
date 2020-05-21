@@ -26,3 +26,13 @@ navigating to url:https://www.amazon.in
 Selected the option:Books by using locator:searchDropdownBox
 Entered the text:harryby using locator:field-keywords
 clicked on search option by using locator:nav-input
+Opening the browser:chrome
+Openining the amazonurl:http://www.amazon.in
+Opening the browser:chrome
+Openining the amazonurl:http://www.amazon.in
+Opening the browser:chrome
+Openining the amazonurl:http://www.amazon.in
+Opening the browser:chrome
+Openining the amazonurl:http://www.amazon.in
+Opening the browser:chrome
+Openining the amazonurl:http://www.amazon.in

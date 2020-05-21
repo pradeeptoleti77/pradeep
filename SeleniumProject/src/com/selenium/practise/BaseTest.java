@@ -1,10 +1,15 @@
 package com.selenium.practise;
 
+import java.io.File;
 import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Date;
 import java.util.Properties;
 
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,9 +19,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.firefox.ProfilesIni;
+import org.openqa.selenium.io.FileHandler;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 
 public class BaseTest 
 {
@@ -50,7 +57,7 @@ public class BaseTest
 			fis=new FileInputStream(projectpath+"//log4jconfig.properties");
 			PropertyConfigurator.configure(fis);
 			
-			report=ExtentManager.getInstance();
+			report=ExtentReportManager.getInstance();
 			
 		}
 	
@@ -145,7 +152,40 @@ public class BaseTest
 		return element;
 				
 	}
-	
-	
+	  public static boolean isElementsEqual(String expectedlink) 
+	  {
+		  String actuallink = driver.findElement(By.linkText("Customer Service")).getAttribute("innerHTML");
+		  
+		  if(actuallink.equals(expectedlink))
+			  return true;
+		  else
+		  return false;
+	  }
+
+	  //****************** Reportings ****************
+	  
+	   public static void reportSucess(String passStatus) throws Exception 
+	   {
+			test.log(LogStatus.PASS, passStatus);
+		   
+	   }
+
+		public static void reportFailure(String failStatus) throws Exception 
+		{
+					test.log(LogStatus.FAIL, failStatus);
+					takeScreenshot();
+		}
+
+		public static void takeScreenshot() throws Exception 
+		{
+			Date dt=new Date();
+			Object filepath = dt.toString().replace(':', '_').replace(' ', '_')+".png";
+			File scrn = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			FileHandler.copy(scrn, new File(projectpath+"//Failurescreenshots"+"//"+filepath));
+			
+test.log(LogStatus.INFO, "Failure Screenshot---->" +test.addScreenCapture(projectpath+"//FailureScreenshots//"+filepath));
+		}
+
+		
 	
 }
