@@ -37,7 +37,7 @@ public class TC_001 extends BaseTest
   {
 	  selectOption("amazondropdown_id","amazondropdowninput");
 		//log.info("Selected the option:" +subprop.getProperty("amazondropdowninput") + "by using locator:"+subprop.getProperty("amazondropdown_id"));
-		test.log(LogStatus.PASS, "navigating to url:-" +subprop.getProperty("amazonurl"));
+		test.log(LogStatus.PASS, "Selected the option:" +subprop.getProperty("amazondropdowninput") + "by using locator:"+subprop.getProperty("amazondropdown_id") );
 		
 		enterSearchText("amazontextfield_name","amazonsearchtext");
 		//log.info("Entered the text:" +subprop.getProperty("amazonsearchtext") + "by using locator:" +subprop.getProperty("amazontextfield_name"));

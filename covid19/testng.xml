@@ -10,7 +10,7 @@
   <test thread-count="5" name="RegressionTest">
   <parameter name="browser" value="chrome"></parameter>
     <classes>
-      <class name="com.global.covid19.TestNG_002"/>
+      
       <class name="com.global.covid19.TC_001"/>
     </classes>
   </test> <!-- RegressionTest -->

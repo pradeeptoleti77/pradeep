@@ -3,18 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <listeners>
     <listener class-name="Listeners.Listener"/>
-    <listener class-name="Listeners.RetryListener"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
-    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.global.covid19.TC_001">
+      <class name="Actions.MixedActionsTest">
         <methods>
-          <include name="amazon"/>
-          <include name="startProcess"/>
-          <include name="endProcess"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="autoSugestion"/>
         </methods>
-      </class> <!-- com.global.covid19.TC_001 -->
+      </class> <!-- Actions.MixedActionsTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

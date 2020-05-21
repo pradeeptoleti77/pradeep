@@ -1,331 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="2" failed="1" ignored="0" total="3" passed="0">
+<testng-results skipped="0" failed="0" ignored="6" total="7" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Test started Running:amazon]]>
+      <![CDATA[Test started Running:dragAndDrop]]>
     </line>
     <line>
-      <![CDATA[Retrying test amazon with status FAILURE for the 1 time(s).]]>
+      <![CDATA[<a href='C:\Users\prade\eclipse-workspace\covid19//SuccessScreenshots//Sun_May_17_12_35_40_IST_2020.png'> <img src='C:\Users\prade\eclipse-workspace\covid19//SuccessScreenshots//Sun_May_17_12_35_40_IST_2020.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
-      <![CDATA[Test is skipped:amazon]]>
-    </line>
-    <line>
-      <![CDATA[Test started Running:amazon]]>
-    </line>
-    <line>
-      <![CDATA[Retrying test amazon with status FAILURE for the 2 time(s).]]>
-    </line>
-    <line>
-      <![CDATA[Test is skipped:amazon]]>
-    </line>
-    <line>
-      <![CDATA[Test started Running:amazon]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\prade\eclipse-workspace\covid19//FailureScreenshots//Mon_Apr_20_11_18_49_IST_2020.png'> <img src='C:\Users\prade\eclipse-workspace\covid19//FailureScreenshots//Mon_Apr_20_11_18_49_IST_2020.png' height='100' width='100'/> </a>]]>
-    </line>
-    <line>
-      <![CDATA[Test has Failed:amazon]]>
+      <![CDATA[Test has Success:dragAndDrop]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="29130" started-at="2020-04-20T05:48:49Z" finished-at="2020-04-20T05:49:18Z">
+  <suite name="Suite" duration-ms="31033" started-at="2020-05-17T07:05:40Z" finished-at="2020-05-17T07:06:11Z">
     <groups>
-      <group name="regression">
-        <method signature="TC_001.amazon()[pri:0, instance:com.global.covid19.TC_001@7ff95560]" name="amazon" class="com.global.covid19.TC_001"/>
-      </group> <!-- regression -->
-      <group name="sanity">
-        <method signature="TC_001.amazon()[pri:0, instance:com.global.covid19.TC_001@7ff95560]" name="amazon" class="com.global.covid19.TC_001"/>
-      </group> <!-- sanity -->
     </groups>
-    <test name="Test" duration-ms="29130" started-at="2020-04-20T05:48:49Z" finished-at="2020-04-20T05:49:18Z">
-      <class name="com.global.covid19.TC_001">
-        <test-method status="PASS" signature="startProcess(java.lang.String)[pri:0, instance:com.global.covid19.TC_001@7ff95560]" name="startProcess" is-config="true" duration-ms="7398" started-at="2020-04-20T05:48:49Z" finished-at="2020-04-20T05:48:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test name="Test" duration-ms="31033" started-at="2020-05-17T07:05:40Z" finished-at="2020-05-17T07:06:11Z">
+      <class name="Actions.MixedActionsTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Actions.MixedActionsTest@37e547da]" name="beforeMethod" is-config="true" duration-ms="7499" started-at="2020-05-17T07:05:40Z" finished-at="2020-05-17T07:05:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startProcess -->
-        <test-method status="SKIP" signature="amazon()[pri:0, instance:com.global.covid19.TC_001@7ff95560]" name="amazon" duration-ms="600" started-at="2020-04-20T05:48:56Z" finished-at="2020-04-20T05:48:57Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='field-keyword']"}
-  (Session info: chrome=80.0.3987.163)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-UCKVVCIT', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\prade\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58057}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ee66cd6935ac003a1bba33104d8f8b92
-*** Element info: {Using=name, value=field-keyword}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='field-keyword']"}
-  (Session info: chrome=80.0.3987.163)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-UCKVVCIT', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\prade\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58057}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ee66cd6935ac003a1bba33104d8f8b92
-*** Element info: {Using=name, value=field-keyword}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-at org.openqa.selenium.By$ByName.findElement(By.java:284)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.global.covid19.BaseTest.getElement(BaseTest.java:135)
-at com.global.covid19.BaseTest.enterSearchText(BaseTest.java:115)
-at com.global.covid19.TC_001.amazon(TC_001.java:42)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="dragAndDrop()[pri:1, instance:Actions.MixedActionsTest@37e547da]" name="dragAndDrop" duration-ms="21533" started-at="2020-05-17T07:05:48Z" finished-at="2020-05-17T07:06:09Z">
           <reporter-output>
             <line>
-              <![CDATA[Test started Running:amazon]]>
+              <![CDATA[Test started Running:dragAndDrop]]>
             </line>
             <line>
-              <![CDATA[Retrying test amazon with status FAILURE for the 1 time(s).]]>
+              <![CDATA[<a href='C:\Users\prade\eclipse-workspace\covid19//SuccessScreenshots//Sun_May_17_12_35_40_IST_2020.png'> <img src='C:\Users\prade\eclipse-workspace\covid19//SuccessScreenshots//Sun_May_17_12_35_40_IST_2020.png' height='100' width='100'/> </a>]]>
             </line>
             <line>
-              <![CDATA[Test is skipped:amazon]]>
+              <![CDATA[Test has Success:dragAndDrop]]>
             </line>
           </reporter-output>
-        </test-method> <!-- amazon -->
-        <test-method status="PASS" signature="endProcess()[pri:0, instance:com.global.covid19.TC_001@7ff95560]" name="endProcess" is-config="true" duration-ms="1409" started-at="2020-04-20T05:48:57Z" finished-at="2020-04-20T05:48:58Z">
+        </test-method> <!-- dragAndDrop -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Actions.MixedActionsTest@37e547da]" name="afterMethod" is-config="true" duration-ms="1001" started-at="2020-05-17T07:06:10Z" finished-at="2020-05-17T07:06:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- endProcess -->
-        <test-method status="PASS" signature="startProcess(java.lang.String)[pri:0, instance:com.global.covid19.TC_001@7ff95560]" name="startProcess" is-config="true" duration-ms="9747" started-at="2020-04-20T05:48:58Z" finished-at="2020-04-20T05:49:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startProcess -->
-        <test-method status="SKIP" signature="amazon()[pri:0, instance:com.global.covid19.TC_001@7ff95560]" name="amazon" duration-ms="470" started-at="2020-04-20T05:49:08Z" finished-at="2020-04-20T05:49:09Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='field-keyword']"}
-  (Session info: chrome=80.0.3987.163)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-UCKVVCIT', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\prade\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7bbf16c0c0b5d455d74c4c85f5908140
-*** Element info: {Using=name, value=field-keyword}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='field-keyword']"}
-  (Session info: chrome=80.0.3987.163)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-UCKVVCIT', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\prade\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7bbf16c0c0b5d455d74c4c85f5908140
-*** Element info: {Using=name, value=field-keyword}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-at org.openqa.selenium.By$ByName.findElement(By.java:284)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.global.covid19.BaseTest.getElement(BaseTest.java:135)
-at com.global.covid19.BaseTest.enterSearchText(BaseTest.java:115)
-at com.global.covid19.TC_001.amazon(TC_001.java:42)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-            <line>
-              <![CDATA[Test started Running:amazon]]>
-            </line>
-            <line>
-              <![CDATA[Retrying test amazon with status FAILURE for the 2 time(s).]]>
-            </line>
-            <line>
-              <![CDATA[Test is skipped:amazon]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- amazon -->
-        <test-method status="PASS" signature="endProcess()[pri:0, instance:com.global.covid19.TC_001@7ff95560]" name="endProcess" is-config="true" duration-ms="823" started-at="2020-04-20T05:49:09Z" finished-at="2020-04-20T05:49:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endProcess -->
-        <test-method status="PASS" signature="startProcess(java.lang.String)[pri:0, instance:com.global.covid19.TC_001@7ff95560]" name="startProcess" is-config="true" duration-ms="6258" started-at="2020-04-20T05:49:09Z" finished-at="2020-04-20T05:49:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startProcess -->
-        <test-method status="FAIL" signature="amazon()[pri:0, instance:com.global.covid19.TC_001@7ff95560]" name="amazon" duration-ms="377" started-at="2020-04-20T05:49:16Z" finished-at="2020-04-20T05:49:16Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='field-keyword']"}
-  (Session info: chrome=80.0.3987.163)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-UCKVVCIT', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\prade\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58155}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6de3addfe4a78afb52ec3fc0bc18c346
-*** Element info: {Using=name, value=field-keyword}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='field-keyword']"}
-  (Session info: chrome=80.0.3987.163)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-UCKVVCIT', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\prade\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58155}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6de3addfe4a78afb52ec3fc0bc18c346
-*** Element info: {Using=name, value=field-keyword}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-at org.openqa.selenium.By$ByName.findElement(By.java:284)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.global.covid19.BaseTest.getElement(BaseTest.java:135)
-at com.global.covid19.BaseTest.enterSearchText(BaseTest.java:115)
-at com.global.covid19.TC_001.amazon(TC_001.java:42)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-            <line>
-              <![CDATA[Test started Running:amazon]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\prade\eclipse-workspace\covid19//FailureScreenshots//Mon_Apr_20_11_18_49_IST_2020.png'> <img src='C:\Users\prade\eclipse-workspace\covid19//FailureScreenshots//Mon_Apr_20_11_18_49_IST_2020.png' height='100' width='100'/> </a>]]>
-            </line>
-            <line>
-              <![CDATA[Test has Failed:amazon]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- amazon -->
-        <test-method status="PASS" signature="endProcess()[pri:0, instance:com.global.covid19.TC_001@7ff95560]" name="endProcess" is-config="true" duration-ms="755" started-at="2020-04-20T05:49:17Z" finished-at="2020-04-20T05:49:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endProcess -->
-      </class> <!-- com.global.covid19.TC_001 -->
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Actions.MixedActionsTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
